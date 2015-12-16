@@ -5,3 +5,5 @@ I wish me goodluck.
 Project is lead by the folloving:
  - Денис Гуща Артемович dguscha
  - blamenot
+ 
+//starting my first application
