@@ -19,6 +19,7 @@ app.TodoView = Backbone.View.extend({
     // **Todo** и **TodoView** соотносятся как 1 к 1,
     // для удобства мы устанавливаем прямую ссылку на модель.
     initialize: function () {
+        console.log(this.model);
         this.listenTo(this.model, 'change', this.render);
     },
     // Повторно отображает заголовки задачи.

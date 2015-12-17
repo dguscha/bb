@@ -22,7 +22,7 @@ app.AppView = Backbone.View.extend({
     // когда ее элементы добавляются или изменяются. Мы начинаем
     // c загрузки существующих задач, которые могли быть сохранены
     // в локальное хранилище.
-    initalize: function () {
+    initialize: function () {
         this.allCheckbox = this.$('#toggle-all')[0];
         this.$input = this.$('#new-todo');
         this.$footer = this.$('#footer');
